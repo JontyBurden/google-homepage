@@ -8,11 +8,25 @@
 }
 
 #google-img {
-    display: block;
+    display: flex;
+    flex-direction: row;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5%;
-    width: 20%;
+    margin-top: 9%;
+    width: 15%;
+}
+
+#search-box {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 30%;
+    padding-top: 0.8%;
+    margin-left: 35%;
+    margin-top: 1%;
+    font-size: 20px;
+    border-color: grey;
+ 
 }
 
 .header-button {
@@ -30,5 +44,17 @@
 
   }
 
+.search-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 70px;
+    width: auto;
+    margin-top: 20px;
 
+}
+
+#search-box:hover {
+    box-shadow: 2px 2px 2px 2px #888888;
+}
 
