@@ -25,12 +25,13 @@
     margin-left: 35%;
     margin-top: 1%;
     font-size: 20px;
-    border-color: grey;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: rgb(201, 201, 201);
  
 }
 
 .header-button {
-    background-color: grey;
     display: flex;
     margin-left: 10px;
     padding-bottom: 5px;
@@ -41,20 +42,46 @@
     border-color: black;
     border-width: 2px;
     display: flex;
-
   }
+
+#search-box:hover {
+    box-shadow: 2px 2px 2px 2px #888888;
+}
+
+.header-button:hover {
+    text-decoration: underline;
+}
+
+button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 8px;
+    margin-right: 8px;
+}
 
 .search-button {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    height: 70px;
-    width: auto;
-    margin-top: 20px;
-
+    justify-content: center;
+    position: relative;
+    margin-top: 30px;
 }
 
-#search-box:hover {
-    box-shadow: 2px 2px 2px 2px #888888;
+#footer {
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    margin-top: 465px;
+    background-color: #f5f4f2;
+}
+
+.footer-style {
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    margin-left: 5px;
+    margin-right: 5px;
+    float: left;
 }
 
