@@ -34,7 +34,7 @@
 .header-button {
     display: flex;
     margin-left: 10px;
-    padding-bottom: 5px;
+    margin-top: 10px;
 }
 
 .box {
@@ -82,6 +82,5 @@ button {
     justify-content:left;
     margin-left: 5px;
     margin-right: 5px;
-    float: left;
 }
 
