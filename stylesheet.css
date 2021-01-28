@@ -1,86 +1,69 @@
-
-#header-content {
+:root {
+    font-size: 14px;
+}
+#header-container {
     display: flex;
-    flex-direction: row;
-    text-align: right;
     justify-content: flex-end;
-    position: relative;
-}
-
-#google-img {
-    display: flex;
-    flex-direction: row;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 9%;
-    width: 15%;
-}
-
-#search-box {
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    width: 30%;
-    padding-top: 0.8%;
-    margin-left: 35%;
-    margin-top: 1%;
-    font-size: 20px;
-    border-style: solid;
-    border-radius: 20px;
-    border-color: rgb(201, 201, 201);
- 
+    text-align: right;
+    width: 100%;
+    height: 250px;
 }
 
 .header-button {
-    display: flex;
     margin-left: 10px;
     margin-top: 10px;
+    padding-top: 8px;
+    padding-left: 5px;
 }
-
-.box {
-    border-style: solid;
-    border-color: black;
-    border-width: 2px;
-    display: flex;
-  }
-
-#search-box:hover {
-    box-shadow: 2px 2px 2px 2px #888888;
-}
-
 .header-button:hover {
     text-decoration: underline;
 }
 
-button {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-left: 8px;
-    margin-right: 8px;
+#sign-in {
+    border: 1px solid transparent;
+    border-radius: 4px;
+    height: 10%;
+    padding-top: 8px;
+    padding-left: 23px;
+    padding-right: 23px;
+    margin-right: 10px;
+    background: #1a73e8;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
 }
 
-.search-button {
+#sign-in:hover {
+    background: #4285f4;
+}
+
+#center-container {
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    position: relative;
-    margin-top: 30px;
+    width: 100%;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: black;
 }
 
-#footer {
+.google-logo {
+    padding-right: 10px;
+}
+
+#search-box-container {
     display: flex;
-    flex-direction: row;
-    height: 80px;
-    margin-top: 465px;
-    background-color: #f5f4f2;
+    justify-content: center;
+    font-size: 20px;
 }
 
-.footer-style {
-    display: flex;
-    flex-direction: row;
-    justify-content:left;
-    margin-left: 5px;
-    margin-right: 5px;
+#search-box {
+    justify-content: center;
+    border-style: solid;
+    width: 150%;
+    border-radius: 20px;
+    border-color: rgb(201, 201, 201);
+    padding-right: 100px;
+    padding-top: 10px;
+    font-size: 20px;
+    margin-right: 100px;
 }
-
